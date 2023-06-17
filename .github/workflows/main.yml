@@ -1,4 +1,12 @@
+name: flipper firmware
 on:
   push:
     branches:
     - main
+    
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    steps:
+      - uses: fbt
