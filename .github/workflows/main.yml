@@ -9,6 +9,6 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-      - name: Flipper_Firmware_Build
-      run: ./fbt
-      shell: bash
+      - name: Run build script
+        run: ./fbt
+        shell: bash
